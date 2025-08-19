@@ -205,7 +205,7 @@
 
 
 .project-card a:hover {
-    color: #ff6600;
+    color: var(--text-color);
 }
 
   
