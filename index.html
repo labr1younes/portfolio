@@ -28,15 +28,17 @@
         <div class="right">
 
             <a href="#skills">
+                <i class="fa-solid fa-code"></i>
                 <span>Skills</span>
             </a>
 
-            <!-- <a href="#testimony">
-          <i class="fa-solid fa-pen"></i>
-          <span>Testimony</span>
-        </a> -->
+            <a href="#projects">
+                <i class="fa-solid fa-pen"></i>
+                <span>Projects</span>
+            </a>
 
             <a href="#contact">
+                <i class="fa-solid fa-envelope"></i>
                 <span>Contact</span>
             </a>
 
@@ -52,45 +54,61 @@
 
     <!-- SECTION 1: Hero -->
     <section class="hero-section">
+
         <div class="text">
             <h2>Hi, I'm Younes </h2>
-            <p><b>Software Engineer</b> & <b>Python Developer</b>. A problem-solver who enjoys building reliable
+            <h3>Software Engineer & Python Developer</h3>
+            <p>A problem-solver who enjoys building reliable
                 systems,
-                automating workflows, and extracting insights from data. <br>Always learning, always creating.</p>
+                automating workflows, and extracting insights from data. Always learning, always creating.</p>
 
-            <div class="links">
+            <!-- <div class="links">
                 <a href="https://github.com/labr1younes" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-github"></i>
-
                 </a>
 
                 <a href="https://www.linkedin.com/in/labriahmedyounes/" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-linkedin"></i>
-
                 </a>
 
                 <a href="mailto:labriahmedyounes@gmail.com">
                     <i class="fa-solid fa-envelope"></i>
-
                 </a>
+            </div> -->
+            <!-- Education -->
+            <div class="education">
+                <h4>Education</h4>
+                <p>Master’s Degree in Software Engineering <br>
+                    <span class="school">University Ibn Khaldoun Tiaret, Algeria</span> – 2022
+                </p>
+                
+                <br>
+                
+                <p>Bachelor’s Degree in Computer Science <br>
+                    <span class="school">University Ibn Khaldoun Tiaret, Algeria</span> – 2020
+                </p>
+                
             </div>
 
-            <div class="headshot">
-                <img src="https://media.licdn.com/dms/image/v2/D4E03AQEyDy2Vp27Zvw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1715613581765?e=1758153600&v=beta&t=HWjntubkyUKakb0Eyg37sPu0tAzG2jPvcftD0mNySEg"
-                    alt="Ahmed Younes headshot">
-            </div>
+            
+        </div>
 
+        <div class="headshot">
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQEyDy2Vp27Zvw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1715613581765?e=1758153600&v=beta&t=HWjntubkyUKakb0Eyg37sPu0tAzG2jPvcftD0mNySEg"
+                alt="Ahmed Younes headshot">
+        </div>
 
     </section>
+
 
     <!-- SECTION 2: Skills -->
     <section id="skills" class="skills-section">
         <h2>Skills</h2>
-        <div class="text">
+        <!-- <div class="text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perspiciatis iure distinctio quidem
             aperiam necessitatibus omnis possimus excepturi amet quos rerum? Perferendis repellat natus saepe quaerat
             quibusdam neque recusandae optio?
-        </div>
+        </div> -->
 
         <div class="cells">
             <div class="cell">
@@ -182,34 +200,74 @@
       </section>
       -->
 
-    <!-- SECTION 4: Contact -->
-    <section id="contact" class="contact-section">
-        <h2>Contact</h2>
+    <!-- SECTION 3: Projects -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I’ve worked on:</p>
 
-        <div class="group">
-            <div class="text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat fugit maiores atque architecto saepe
-                tenetur quasi reiciendis illum sint doloremque alias inventore, asperiores maxime pariatur totam hic
-                assumenda repudiandae, iusto quisquam nisi! Eaque doloremque perspiciatis minus voluptate dicta. A
-                ratione autem dolor iure libero numquam voluptatem nobis laborum et corporis.
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3>ImaGee</h3>
+                <p>A Web-App built with Flask and Bootstrap for image processing tasks such as enhancing image quality
+                    and extracting text.</p>
+                <a href="https://github.com/labr1younes/ImaGee" target="_blank">View Project</a>
             </div>
 
-            <form>
-                <label for="name">Name</label>
-                <input type="text" id="name">
+            <!-- Project 2 -->
+            <div class="project-card">
+                <h3>Breast Cancer Detection</h3>
+                <p>A computer-aided detection system using Python & Flask to help detect breast cancer in mammography
+                    images.</p>
+                <a href="/" target="_blank">View Project</a>
+            </div>
 
-                <label for="email">Email</label>
-                <input type="email" id="email">
+            <!-- Project 3 -->
+            <div class="project-card">
+                <h3>URL Shortening Service</h3>
+                <p>A RESTful API built with .NET 6 & SQL Server for shortening URLs, including CRUD operations and
+                    access tracking.</p>
+                <a href="https://github.com/labr1younes/URL-Shortening-Service" target="_blank">View Project</a>
+            </div>
 
-                <label for="message">Message</label>
-                <textarea id="message" cols="30" rows="10"></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
+            <!-- Project 4 -->
+            <div class="project-card">
+                <h3>Google Scholar Scraper</h3>
+                <p>This is a Google Scholar profile scrapper made with Python</p>
+                <a href="https://github.com/labr1younes/Google-Scholar-Scraper" target="_blank">View Project</a>
+            </div>
         </div>
     </section>
 
 
+
+
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+
+        <div class="contact-links">
+
+            <div>
+                <a href="https://github.com/labr1younes" target="_blank">
+                    <i class="fa-brands fa-github"></i> Github
+                </a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/labriahmedyounes/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i> Linkedin
+                </a>
+            </div>
+
+            <div>
+                <a href="mailto:labriahmedyounes@gmail.com" target="_blank">
+                    <i class="fa-solid fa-envelope"></i> Email
+                </a>
+            </div>
+
+        </div>
+    </section>
 </body>
 
 </html>
